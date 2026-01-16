@@ -2,10 +2,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 
+/* shard Style */
 
+body{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
 .work-sans-common {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
+}
+
+.display_flex {
+    display: flex;
+}
+.header_bg {
+    background-color: rgba(255, 216, 14, 0.1);
+}
+
+.common_btn{
+    background-color: #FF900E;
+    padding: 21px 24px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    border: none;
+}
+
+
+/* header style */
+.nav_li{
+    list-style: none;
+}
+
+.nav_link{
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: 18px;
+    color: 727272;
+    
+}
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+
+.brand_details{
+    max-width: 860px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 116px;
+}
+
+.banner img{
+    margin-top: 50px;
+}
+.navbar .brand{
+    font-weight: 700;
+    font-size: 3rem;
+    color: black;
 }
