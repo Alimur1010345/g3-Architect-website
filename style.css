@@ -74,10 +74,103 @@ body{
     max-width: 100%;
 }
 
+
+/* quick list */
+
+.teams{
+   
+     
+}
+.fitures{
+    align-items: center;
+    gap: 50px;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 107px;
+}
+.features_imgs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+   
+}
+
+.quick_list{
+    max-width: 537px;
+    
+}
+ .quick_list h1 .qck_list{
+    color: #727272;
+    font-size: 2.85rem;
+}
+.quick_list h1 .our{
+    color: #131313;
+    font-size: 2.85rem;
+}
+.quick_list h1 .fea{
+    color: #FF900E;
+    font-size: 2.85rem;
+}
+
+.quick_list p{
+    color: #727272;
+    font-size: 1rem;
+}
+
+/* love&Enjoy */
+
+.love_enjoy{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.love_features{
+    max-width: 586px;
+    margin-top: 169px;
+
+}
+
+.love_features .love_title{
+    font-size: 2.85rem;
+    color: #131313;
+}
+
+.card_container{
+    max-width: 586px;
+}
+
+.card_container .card{
+    max-width: 586px;
+    padding: 30px;
+    box-shadow: 0px 0px 2px .5px rgb(171, 170, 170) ;
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.card .card_desc{
+    color: #727272;
+}
+.love_enjoy{
+    display: flex;
+    gap: 54px;
+}
+
+.yeard{
+    max-width: 800px;
+    margin-top: 130px;
+}
 /* response for mobile */
 @media screen and (max-width:576px) {
-    .navbar, .nab_menu{
+    .navbar, .nab_menu, .fitures{
         flex-direction: column;
     }
+    .features_imgs{
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+.quick_list{
+    text-align: center;
+}
     
 }
