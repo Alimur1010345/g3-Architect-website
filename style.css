@@ -70,3 +70,14 @@ body{
     font-size: 3rem;
     color: black;
 }
+.banner_img{
+    max-width: 100%;
+}
+
+/* response for mobile */
+@media screen and (max-width:576px) {
+    .navbar, .nab_menu{
+        flex-direction: column;
+    }
+    
+}
