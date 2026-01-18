@@ -87,6 +87,7 @@ body{
     max-width: 1440px;
     margin: 0 auto;
     margin-top: 107px;
+    justify-content: center;
 }
 .features_imgs {
     display: grid;
@@ -122,6 +123,7 @@ body{
 .love_enjoy{
     max-width: 1440px;
     margin: 0 auto;
+    justify-content: center;
 }
 
 .love_features{
@@ -133,6 +135,8 @@ body{
 .love_features .love_title{
     font-size: 2.85rem;
     color: #131313;
+    border-left: 4px solid #ff900e;
+    padding-left: 21px;
 }
 
 .card_container{
@@ -142,7 +146,7 @@ body{
 .card_container .card{
     max-width: 586px;
     padding: 30px;
-    box-shadow: 0px 0px 2px .5px rgb(171, 170, 170) ;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06) ;
     background-color: #FFFFFF;
     margin-bottom: 20px;
 }
@@ -152,15 +156,77 @@ body{
 }
 .love_enjoy{
     display: flex;
-    gap: 54px;
+    gap: 146px;
 }
 
 .yeard{
     max-width: 800px;
     margin-top: 130px;
 }
+.btn{
+    border: none;
+    background-color: #ff900e;
+     border-radius: 5px;
+     padding: 46px 42px;
+     margin-top: -100px;
+     margin-left: -50px;
+}
+.btn .years{
+    font-size: 4rem;
+    font: 700;
+    color: #FFFFFF; 
+}
+
+.btn .experience{
+    font-size: 1.2rem;
+    font: 600;
+    color: #FFFFFF; 
+}
+
+/* facts  */
+.facts{
+    margin-bottom: 50px;
+}
+.facts .facts_card_container{
+ display: flex;
+ gap: 124px;
+margin-left: 290px;
+margin-top: 100px;
+}
+.facts_description{
+    margin-left: 120px;
+}
+
+.facts_description h3{
+    font-size: 2.85rem;
+    font-weight: 700;
+    color: #131313;
+    margin-bottom: 24px;
+}
+.facts_card{
+    border: 1px solid #FF900E;
+    padding: 45px 35px 59px 35px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+
+.facts_card h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #424242;
+    margin-top: 10;
+}
+.facts_card p{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #727272;
+    margin-top: 0;
+}
+
+
 /* response for mobile */
-@media screen and (max-width:576px) {
+@media screen and (max-width:700px) {
     .navbar, .nab_menu, .fitures{
         flex-direction: column;
     }
@@ -172,5 +238,17 @@ body{
 .quick_list{
     text-align: center;
 }
-    
+    .love_enjoy{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 100px;
+    }
+
+.facts .facts_card_container{
+ flex-direction: column;
+ gap: 50px;
+ margin-left: 20px;
+
 }
+}
+    
